@@ -79,7 +79,7 @@ public class WebSVN extends SubversionRepositoryBrowser {
      */
     @DataBoundConstructor
     public WebSVN(URL url) throws MalformedURLException {
-        this.url = normalizeToEndWithSlash(url);
+        this.url = url;
     }
 
     /**
